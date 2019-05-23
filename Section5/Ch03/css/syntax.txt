@@ -1,0 +1,19 @@
+#Lighten and Darken
+lighten(#000, 20%)
+darken(#fff, 20%)
+
+#Saturate and Desaturate
+saturate(#ccc, 20%)
+desaturate(#eee, 20%)
+
+#Fade, FadeIn and FadeOut
+fade(@col, 10%)
+fadein(@col, 10%)
+fadeout(@col, 50%)
+
+#Spin
+spin(red, -10)
+spin(green, 10)
+
+#Mix
+mix(red, @col)

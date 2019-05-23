@@ -1,0 +1,15 @@
+.read-more {
+    font: 16px @font_sans;
+    color: #FD333F;
+    text-transform: uppercase;
+    padding: 0;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+    :after {
+        content: '\f054';
+        font-family: "FontAwesome";
+        color: #FD333F;
+        padding-left: 12px;
+    }
+}

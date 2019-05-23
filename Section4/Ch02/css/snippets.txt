@@ -1,0 +1,19 @@
+.post {
+    padding-right: 30px;
+}
+
+.post-date {
+    position: relative;
+    font-size: 12px;
+}
+
+.post-image {
+    width: 50%;
+    float: left;
+    margin-right: 13px;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+}

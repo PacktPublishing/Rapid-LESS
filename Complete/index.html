@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<!-- Basic Page Needs -->
+        <meta charset="utf-8">
+        <title>Movie News</title>
+    
+    <!-- Mobile Specific Metas-->
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="telephone=no" name="format-detection">
+    
+    <!-- Fonts -->
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
+    
+    <!-- Stylesheets -->
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        <link href="css/reset.css" rel="stylesheet" />
+        <link href="css/fonts.css" rel="stylesheet" />
+        <link href="css/main.css" rel="stylesheet" />
+        <link href="css/responsiveslides.css" rel="stylesheet" />
+
+        <!-- Modernizr --> 
+        <script src="js/modernizr.custom.js"></script>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --> 
+    <!--[if lt IE 9]> 
+    	<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script> 
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>		
+    <![endif]-->
+</head>
+    <body>
+<div id="fb-root"></div>
+        <div class="wrapper">
+        <header class="header-wrapper header-wrapper-home">
+            <div class="container">              
+                <!-- Main website navigation-->
+                <nav id="navigation-box">
+                    <!-- Toggle for mobile menu mode -->
+                    <a href="#" id="navigation-toggle">
+                        <span class="menu-icon">
+                            <span class="icon-toggle" role="button" aria-label="Toggle Navigation">
+                              <span class="lines"></span>
+                            </span>
+                        </span>
+                    </a>
+                    
+                    <!-- Link navigation -->
+                    <ul id="navigation">
+                        <li>
+                            <a href="#">Pages</a>
+                        </li>
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <!-- Additional header buttons / Auth and direct link to booking-->
+                <div class="control-panel">
+                    <div class="auth auth-home">
+                      <div class="auth-show">
+                        <span class="auth-image">
+                          <img alt="Grvatar" src="images/gravatar-300x300.jpg" width="31" height="31">
+                        </span>
+                      </div>
+                      <a href="#" class="btn btn-sign btn-signin">
+                          me
+                      </a>
+                        <ul class="auth-function">
+                            <li><a href="#" class="auth-function-item">Watchlist</a></li>
+                            <li><a href="#" class="auth-function-item">Booked tickets</a></li>
+                            <li><a href="#" class="auth-function-item">Discussion</a></li>
+                            <li><a href="#" class="auth-function-item">Settings</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+
+
+
+        <!-- Slider -->
+            <div class="banner-container">
+                    <div class="banner">
+                        <ul class="rslides">
+                          <li><img src="images/slides/01.jpg" alt="Rango"></li>
+                          <li><img src="images/slides/02.jpg" alt="Red Ridign Hood"></li>
+                          <li><img src="images/slides/03.jpg" alt="Gnomeo and Juliet"></li>
+                          <li><img src="images/slides/04.jpg" alt="Rite"></li>
+                          <li><img src="images/slides/05.jpg" alt="Mars Needs Moms"></li>
+                        </ul>
+                    </div>
+            </div>
+        <!-- End Slider -->
+
+       <section class="container">
+           <!-- Top Movies -->
+            <div class="movie-best">
+                 <div class="col-sm-10 col-sm-offset-1 movie-top-rating">Top Rated</div>
+                 <div class="col-sm-12 change-col">
+
+                     <!-- Movie Item -->
+                     <div class="movie-top-item ">
+                        <img alt='Transformers: Age of Extinction' src="images/posters/01.jpg">
+                         <span class="best-rate">5.0</span>
+                     </div>
+                     <!-- End Movie Item -->
+
+                     <!-- Movie Item -->
+                     <div class="movie-top-item second-item">
+                         <img alt='Guardians of Galaxy' src="images/posters/02.jpg">
+                         <span class="best-rate">5.0</span>
+                     </div>
+                     <!-- End Movie Item -->
+
+                     <!-- Movie Item -->
+                     <div class="movie-top-item third-item">
+                         <img alt='X-Men: Days of Future Past' src="images/posters/03.jpg">
+                         <span class="best-rate">5.0</span>
+                     </div>
+                     <!-- End Movie Item -->
+
+                     <!-- Movie Item -->
+                     <div class="movie-top-item hidden-xs">
+                         <img alt='Maleficent' src="images/posters/04.jpg">
+                         <span class="best-rate">5.0</span>
+                     </div>
+                     <!-- End Movie Item -->
+
+                     <!-- Movie Item -->
+                     <div class="movie-top-item hidden-xs hidden-sm">
+                         <img alt='Dragons 2' src="images/posters/05.jpg">
+                         <span class="best-rate">5.0</span>
+                     </div>
+                     <!-- End Movie Item -->
+
+                     <!-- Movie Item -->
+                     <div class="movie-top-item hidden-xs hidden-sm">
+                         <img alt='Amazing Spiderman 2' src="images/posters/06.jpg">
+                         <span class="best-rate">5.0</span>
+                         </ul>
+                     </div>
+                     <!-- End Movie Item -->
+
+                 </div>
+                <div class="col-sm-10 col-sm-offset-1 movie-top-check">check all movies now playing</div>
+            </div>
+           <!-- End Top Movies -->
+
+            <div class="col-sm-12">
+                <div class="mega-select-present mega-select-top mega-select-full">
+                    <div class="mega-select-marker">
+                        <div class="marker-indecator location">
+                            <p class="select-marker"><span>movie to watch now</span> <br>in your city</p>
+                        </div>
+
+                        <div class="marker-indecator cinema">
+                            <p class="select-marker"><span>find your </span> <br>cinema</p>
+                        </div>
+
+                        <div class="marker-indecator film-category">
+                            <p class="select-marker"><span>find movie due to </span> <br> your mood</p>
+                        </div>
+
+                        <div class="marker-indecator actors">
+                            <p class="select-marker"><span> like particular stars</span> <br>find them</p>
+                        </div>
+
+                        <div class="marker-indecator director">
+                            <p class="select-marker"><span>admire personalities - find </span> <br>by director</p>
+                        </div>
+
+                        <div class="marker-indecator country">
+                            <p class="select-marker"><span>search for movie from certain </span> <br>country?</p>
+                        </div>
+                    </div>
+
+                      <div class="mega-select pull-right">
+                          <span class="mega-select-point">Search by</span>
+                          <ul class="mega-select-sort">
+                              <li class="filter-wrap"><a href="#" class="mega-select-filter filter-active" data-filter='location'>Location</a></li>
+                              <li class="filter-wrap"><a href="#" class="mega-select-filter" data-filter='cinema'>Cinema</a></li>
+                              <li class="filter-wrap"><a href="#" class="mega-select-filter" data-filter='film-category'>Category</a></li>
+                              <li class="filter-wrap"><a href="#" class="mega-select-filter" data-filter='actors'>Actors</a></li>
+                              <li class="filter-wrap"><a href="#" class="mega-select-filter" data-filter='director'>Director</a></li>
+                              <li class="filter-wrap"><a href="#" class="mega-select-filter" data-filter='country'>Country</a></li>
+                          </ul>
+
+                          <input name="search-input" type='text' class="select-field">
+                          
+                          <div class="select-btn">
+                            <a href="#" class="btn btn-md btn-danger location">find <span class="hidden-exrtasm">your city</span></a>
+                            <a href="#" class="btn btn-md btn-danger cinema">find <span class="hidden-exrtasm">suitable cimema</span></a>
+                            <a href="#" class="btn btn-md btn-danger film-category">find <span class="hidden-exrtasm">best category</span></a>
+                            <a href="#" class="btn btn-md btn-danger actors">find <span class="hidden-exrtasm">talented actors</span></a>
+                            <a href="#" class="btn btn-md btn-danger director">find <span class="hidden-exrtasm">favorite director</span></a>
+                            <a href="#" class="btn btn-md btn-danger country">find <span class="hidden-exrtasm">produced country</span></a>
+                          </div>
+
+                          <div class="select-dropdowns">
+                              <ul class="select-group location">
+                                <li class="select-variant" data-value='London'>London</li>
+                                <li class="select-variant" data-value='New York'>New York</li>
+                                <li class="select-variant" data-value='Paris'>Paris</li>
+                                <li class="select-variant" data-value='Berlin'>Berlin</li>
+                                <li class="select-variant" data-value='Moscow'>Moscow</li>
+                                <li class="select-variant" data-value='Minsk'>Minsk</li>
+                                <li class="select-variant" data-value='Warsawa'>Warsawa</li>
+                              </ul>
+
+                              <ul class="select-group cinema">
+                                <li class="select-variant" data-value='Cineworld'>Cineworld</li>
+                                <li class="select-variant" data-value='Empire'>Empire</li>
+                                <li class="select-variant" data-value='Everyman'>Everyman</li>
+                                <li class="select-variant" data-value='Odeon'>Odeon</li>
+                                <li class="select-variant" data-value='Picturehouse'>Picturehouse</li>
+                              </ul>
+
+                              <ul class="select-group film-category">
+                                <li class="select-variant" data-value="Children's">Children's</li>
+                                <li class="select-variant" data-value='Comedy'>Comedy</li>
+                                <li class="select-variant" data-value='Drama'>Drama</li>
+                                <li class="select-variant" data-value='Fantasy'>Fantasy</li>
+                                <li class="select-variant" data-value='Horror'>Horror</li>
+                                <li class="select-variant" data-value='Thriller'>Thriller</li>
+                              </ul>
+
+                              <ul class="select-group actors">
+                                <li class="select-variant" data-value='Leonardo DiCaprio'>Leonardo DiCaprio</li>
+                                <li class="select-variant" data-value='Johnny Depp'>Johnny Depp</li>
+                                <li class="select-variant" data-value='Jack Nicholson'>Jack Nicholson</li>
+                                <li class="select-variant" data-value='Robert De Niro'>Robert De Niro</li>
+                                <li class="select-variant" data-value='Morgan Freeman'>Morgan Freeman</li>
+                                <li class="select-variant" data-value='Jim Carrey'>Jim Carrey</li>
+                                <li class="select-variant" data-value='Adam Sandler'>Adam Sandler</li>
+                                <li class="select-variant" data-value='Ben Stiller'>Ben Stiller</li>
+                              </ul>
+
+                              <ul class="select-group director">
+                                <li class="select-variant" data-value='Steven Spielberg'>Steven Spielberg</li>
+                                <li class="select-variant" data-value='Martin Scorsese'>Martin Scorsese</li>
+                                <li class="select-variant" data-value='Guy Ritchie'>Guy Ritchie</li>
+                                <li class="select-variant" data-value='Christopher Nolan'>Christopher Nolan</li>
+                                <li class="select-variant" data-value='Tim Burton'>Tim Burton</li>
+                              </ul>
+
+                              <ul class="select-group country">
+                                <li class="select-variant" data-value='USA'>USA</li>
+                                <li class="select-variant" data-value='Germany'>Germany</li>
+                                <li class="select-variant" data-value='Australia'>Australia</li>
+                                <li class="select-variant" data-value='UK'>UK</li>
+                                <li class="select-variant" data-value='Japan'>Japan</li>
+                                <li class="select-variant" data-value='Serbia'>Serbia</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+            </div>
+
+           <div class="clearfix"></div>
+
+            <h2 id='target' class="page-heading heading-outcontainer">Now showing</h2>
+
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-8 col-md-9">
+                        <!-- Movie variant with time -->
+                            <div class="movie movie-test movie-test-dark movie-test-left">
+                                <div class="movie-images">
+                                    <a href="movie-page-left.html" class="movie-beta-link">
+                                        <img alt='' src="images/posters/01.jpg">
+                                    </a>
+                                </div>
+
+                                <div class="movie-info">
+                                    <a href='movie-page-left.html' class="movie-title">Avatar (2009)</a>
+
+                                    <p class="movie-time">162 min</p>
+
+                                    <p class="movie-option"><a href="#">Action</a> | <a href="#">Adventure</a> | <a href="#">Fantasy</a></p>
+                                    
+                                    <div class="movie-rate">
+                                        <div class="score"></div>
+                                        <span class="movie-rating">4.1</span>
+                                    </div>               
+                                </div>
+                            </div>
+                         <!-- Movie variant with time -->
+
+                         <!-- Movie variant with time -->
+                            <div class="movie movie-test movie-test-light movie-test-left">
+                                <div class="movie-images">
+                                    <a href="movie-page-left.html" class="movie-beta-link">
+                                    <img alt='' src="images/posters/02.jpg">
+                                    </a>
+                                </div>
+
+                                <div class="movie-info">
+                                    <a href='movie-page-left.html' class="movie-title">Inception (2010)</a>
+
+                                    <p class="movie-time">148 min</p>
+
+                                    <p class="movie-option"><a href="#">Action</a> | <a href="#">Thriller</a> | <a href="#">Sci-Fi</a></p>
+                                    
+                                    <div class="movie-rate">
+                                        <div class="score"></div>
+                                        <span class="movie-rating">5.0</span>
+                                    </div>               
+                                </div>
+                            </div>
+                         <!-- Movie variant with time -->
+
+                         <!-- Movie variant with time -->
+                            <div class="movie movie-test movie-test-light movie-test-right">
+                                <div class="movie-images">
+                                    <a href="movie-page-left.html" class="movie-beta-link">
+                                    <img alt='' src="images/posters/03.jpg">
+                                    </a>
+                                </div>
+
+                                <div class="movie-info">
+                                    <a href='movie-page-left.html' class="movie-title">Fast & Furious (2009)</a>
+
+                                    <p class="movie-time">107 min</p>
+
+                                    <p class="movie-option"><a href="#">Action</a> | <a href="#">Crime</a> | <a href="#">Drama</a></p>
+                                    
+                                    <div class="movie-rate">
+                                        <div class="score"></div>
+                                        <span class="movie-rating">4.9</span>
+                                    </div>               
+                                </div>
+                            </div>
+                         <!-- Movie variant with time -->
+
+                         <!-- Movie variant with time -->
+                            <div class="movie movie-test movie-test-dark movie-test-right">
+                                <div class="movie-images">
+                                    <a href="movie-page-left.html" class="movie-beta-link">
+                                    <img alt='' src="images/posters/04.jpg">
+                                    </a>
+                                </div>
+
+                                <div class="movie-info">
+                                    <a href='movie-page-left.html' class="movie-title">Transformers (2009)</a>
+
+                                    <p class="movie-time">150 min</p>
+
+                                    <p class="movie-option"><a href="#">Action</a> | <a href="#">Adventure</a> | <a href="#">Sci-Fi</a></p>
+                                    
+                                    <div class="movie-rate">
+                                        <div class="score"></div>
+                                        <span class="movie-rating">5.0</span>
+                                    </div>               
+                                </div>
+                            </div>
+                         <!-- Movie variant with time -->
+                        </div>
+
+                    <!-- Side Bar -->
+                    <aside class="col-sm-4 col-md-3">
+                        <div class="sitebar first-banner-left">
+                            <div class="promo marginb-sm">
+                              <div class="promo-head">A.Movie app</div>
+                              <div class="promo-describe">for all smartphones<br> and tablets</div>
+                              <div class="promo-content">
+                                  <ul>
+                                      <li class="store-variant"><a href="#"><img alt='' src="images/apple-store.svg"></a></li>
+                                      <li class="store-variant"><a href="#"><img alt='' src="images/google-play.svg"></a></li>
+                                      <li class="store-variant"><a href="#"><img alt='' src="images/windows-store.svg"></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+    
+                        </div>
+                    </aside>
+                    <!-- End Side Bar -->
+                    </div>
+                </div>
+
+           <!-- Letest News -->
+            <div class="col-sm-12">
+                <h2 class="page-heading">Latest news</h2>
+
+                <div class="col-sm-4 similar-wrap col-remove">
+                    <div class="post post-preview post-preview-wide">
+                        <div class="post-image">
+                            <img alt='' src="images/news/thor.jpg">
+                        </div>
+                        <p class="post-date">22 October 2013 </p>
+                        <a href="#" class="post-title">"Thor: The Dark World" - World Premiere</a>
+                        <a href="#" class="btn read-more post-btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 similar-wrap col-remove">
+                    <div class="post post-preview post-preview-wide">
+                        <div class="post-image">
+                            <img alt='' src="images/news/stars.jpg">
+                        </div>
+                        <p class="post-date">22 October 2013 </p>
+                        <a href="#" class="post-title">30th Annual Night Of Stars Presented By The Fashion Group International</a>
+                        <a href="#" class="btn read-more post-btn">read more</a>
+                    </div>
+                </div>
+                <div class="col-sm-4 similar-wrap col-remove">
+                    <div class="post post-preview post-preview-wide">
+                        <div class="post-image">
+                            <img alt='' src="images/news/awards.jpg">
+
+                        </div>
+                        <p class="post-date">22 October 2013 </p>
+                        <a href="#" class="post-title">Hollywood Film Awards 2013</a>
+                        <a href="#" class="btn read-more post-btn">read more</a>
+                    </div>
+                </div>
+            </div>
+           <!-- End Letest News -->
+        </section>
+
+            <div class="clearfix"></div>
+        
+        <!-- Footer -->
+        <footer class="footer-wrapper">
+            <section class="container">
+                <div class="col-xs-4 col-md-2 footer-nav">
+                    <ul class="nav-link">
+                        <li><a href="#" class="nav-link-item">Cities</a></li>
+                        <li><a href="#" class="nav-link-item">Movies</a></li>
+                        <li><a href="#" class="nav-link-item">Trailers</a></li>
+                        <li><a href="#" class="nav-link-item">Rates</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 col-md-2 footer-nav">
+                    <ul class="nav-link">
+                        <li><a href="#" class="nav-link-item">Coming soon</a></li>
+                        <li><a href="#" class="nav-link-item">Cinemas</a></li>
+                        <li><a href="#" class="nav-link-item">Best offers</a></li>
+                        <li><a href="#" class="nav-link-item">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 col-md-2 footer-nav">
+                    <ul class="nav-link">
+                        <li><a href="#" class="nav-link-item">Terms of use</a></li>
+                        <li><a href="#" class="nav-link-item">Gallery</a></li>
+                        <li><a href="#" class="nav-link-item">Contacts</a></li>
+                        <li><a href="#" class="nav-link-item">Shortcodes</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="footer-info">
+                        <p class="heading-special-small">Social Media</p>
+                        <div class="social">
+                            <a href='#' class="social-variant fa fa-facebook"></a>
+                            <a href='#' class="social-variant fa fa-twitter"></a>
+                            <a href='#' class="social-variant fa fa-vk"></a>
+                            <a href='#' class="social-variant fa fa-instagram"></a>
+                            <a href='#' class="social-variant fa fa-tumblr"></a>
+                            <a href='#' class="social-variant fa fa-pinterest"></a>
+                        </div>
+                        
+                        <div class="clearfix"></div>
+                        <p class="copy">&copy; A.Movie, 2013. All rights reserved. Done by Olia Gozha</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <!-- End Footer -->
+        </div>
+
+	<!-- JavaScript-->
+        <!-- jQuery 1.9.1--> 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <!-- Bootstrap 3--> 
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+
+        <!-- Responsive Slides -->
+        <script src="js/responsiveslides.min.js"></script>
+
+        <!-- Mobile menu -->
+        <script src="js/jquery.mobile.menu.js"></script>
+         <!-- Select -->
+        <script src="js/jquery.selectbox-0.2.min.js"></script>
+        <!-- Stars rate -->
+        <script src="js/jquery.raty.js"></script>
+
+        <!-- Custom -->
+        <script src="js/functions.js"></script>
+		
+	      <script type="text/javascript">
+              $(document).ready(function() {
+                  init_Home();
+                  $(function() {
+                    $(".rslides").responsiveSlides({
+                      auto: true,             // Boolean: Animate automatically, true or false
+                      speed: 500,            // Integer: Speed of the transition, in milliseconds
+                      timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+                      pager: false,           // Boolean: Show pager, true or false
+                      nav: true,             // Boolean: Show navigation, true or false
+                      random: false,          // Boolean: Randomize the order of the slides, true or false
+                      pause: true,           // Boolean: Pause on hover, true or false
+                      pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+                      prevText: "Previous",   // String: Text for the "previous" button
+                      nextText: "Next",       // String: Text for the "next" button
+                      maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+                      navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+                      manualControls: "",     // Selector: Declare custom pager navigation
+                      namespace: "rslides",   // String: Change the default namespace used
+                      before: function(){},   // Function: Before callback
+                      after: function(){}     // Function: After callback
+                    });
+                  });
+              });
+		    </script>        
+    </body>
+</html>
